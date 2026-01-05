@@ -39,5 +39,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          semantic-release version -v
-          semantic-release publish -v
+          semantic-release version
+          semantic-release publish
